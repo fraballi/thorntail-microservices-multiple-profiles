@@ -1,0 +1,8 @@
+project:
+  stage: dev
+swarm:
+  http:
+    port: 19091
+application:
+  name: micsrv-dev
+  message: Hello, developers!

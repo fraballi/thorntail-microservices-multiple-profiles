@@ -1,0 +1,25 @@
+version: "3"
+networks:
+  micsrv-net:
+    driver: bridge
+services:
+  micsrv-prod:
+    container_name: micsrv-prod
+    build: .
+    environment:
+      - THORNTAIL_PROJECT_STAGE=prod
+      - SWARM_HTTP_PORT=19090
+    networks:
+      - micsrv-net
+    ports:
+      - "19090:19090"
+  micsrv-dev:
+    container_name: micsrv-dev
+    build: .
+    environment:
+      - THORNTAIL_PROJECT_STAGE=dev
+      - SWARM_HTTP_PORT=19091
+    networks:
+      - micsrv-net
+    ports:
+      - "19091:19091"

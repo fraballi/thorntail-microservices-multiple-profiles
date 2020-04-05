@@ -1,0 +1,8 @@
+project:
+  stage: prod
+swarm:
+  http:
+    port: 19090
+application:
+  name: micsrv-prod
+  message: Hello, clients!
