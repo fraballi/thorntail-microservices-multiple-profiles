@@ -19,7 +19,7 @@
         <jboss-jaxrs-api.version>1.0.1.Final</jboss-jaxrs-api.version>
         <javax-cdi-api.version>2.0.SP1</javax-cdi-api.version>
         <thorntail.version>2.6.0.Final</thorntail.version>
-        <snake-yml.version>1.26</snake-yml.version>
+        <snake-yml.version>1.32</snake-yml.version>
         <google-guava.version>28.2-jre</google-guava.version>
         <log4j2.version>2.13.1</log4j2.version>
         <log4j-to-slf4j.version>2.13.1</log4j-to-slf4j.version>
